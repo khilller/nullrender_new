@@ -21,7 +21,7 @@ export const navLinks = [
     }
 ]
 
-export const resolution = [
+export const resolutionOptions = [
     {
         label: "256x256",
         value: "256",
@@ -42,15 +42,22 @@ export const amountOptions = [
         value: "1",
     },
     {
-        label: "2 Renders",
-        value: "2",
-    },
-    {
-        label: "3 Renders",
-        value: "3",
-    },
-    {
         label: "4 Renders",
         value: "4",
+    }
+]
+
+export const stepOptions = [
+    {
+        label: "5",
+        value: "5",
+    },
+    {
+        label:"10",
+        value: "10",
+    },
+    {
+        label: "15",
+        value: "15",
     }
 ]

@@ -9,7 +9,7 @@ const page = async () => {
     //const user = await getUserById(userId)
 
   return (
-    <>
+    <section className=''>
     
     <Header
         title='Interior Render'
@@ -21,7 +21,7 @@ const page = async () => {
     <div className='px-4 lg:px-8 w-full gap-x-3 mb-8'>
         <Transformation />
     </div>
-    </>
+    </ section>
   )
 }
 

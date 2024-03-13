@@ -111,7 +111,7 @@ body,
 /* Navbar Component */
 
 .header {
-  @apply flex-between fixed h-16 w-full border-b-4 border-purple-100 bg-white p-5 md:hidden
+  @apply flex-between fixed w-full border-b-4 border-purple-100 bg-white p-5 md:hidden
 }
 
   /* Sidebar Component */
@@ -144,6 +144,20 @@ body,
 
 .button {
   @apply py-4 px-6 items-center gap-3 rounded-full p-16-semibold focus-visible:ring-offset-0 focus-visible:ring-transparent !important;
+}
+
+/* Media uploader Component*/
+
+.media-uploader_cldImage {
+  @apply h-fit min-h-72 w-full rounded-[10px] border border-dashed bg-purple-100/20 object-cover p-2;
+}
+
+.media-uploader_cta {
+  @apply flex-center flex h-72 cursor-pointer flex-col gap-5 rounded-[16px] border border-dashed bg-purple-100/20 shadow-inner;
+}
+
+.media-uploader_cta-image {
+  @apply rounded-[16px] bg-white  p-5 shadow-sm shadow-purple-200/50;
 }
 
 /* =====  CLERK OVERRIDES */
